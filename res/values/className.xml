@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="className">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+    </string-array>
+</resources>
