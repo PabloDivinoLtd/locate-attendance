@@ -25,7 +25,7 @@ import android.widget.Toast;
 
 public class RegisterActivity extends Activity {
 		
-	
+
 	
 	Button register;
 	EditText name, rollNo, password, phoneNo;
@@ -105,6 +105,9 @@ public class RegisterActivity extends Activity {
 			params.add(new BasicNameValuePair("name", nameS));
 			params.add(new BasicNameValuePair("password", passS));
 			params.add(new BasicNameValuePair("roll_no", rollS));
+			params.add(new BasicNameValuePair("college", collegeName.getSelectedItem().toString()));
+			params.add(new BasicNameValuePair("division", courseName.getSelectedItem().toString()));
+			params.add(new BasicNameValuePair("class", className.getSelectedItem().toString()));
 			
 
 			// getting JSON Object
