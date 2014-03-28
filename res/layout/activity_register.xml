@@ -9,7 +9,7 @@
     tools:ignore="MergeRootFrame" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/phoneR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -20,7 +20,7 @@
     </EditText>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/nameR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -29,7 +29,7 @@
         android:layout_marginTop="@dimen/margin_top_value" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/rollR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -37,7 +37,7 @@
         android:layout_marginTop="@dimen/margin_top_value" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/passR"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -112,7 +112,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button1R"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Register Me!"

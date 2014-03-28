@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="phone" 
+        android:inputType="text" 
         android:hint="Phone number" >
 
         <requestFocus />
